@@ -30,6 +30,24 @@
   word-break: break-all;
 }
 
+%crossMixin {
+  position: relative;
+  &::before,
+  &::after {
+    position: absolute;
+    left: 50%;
+    height: inherit;
+    content: '';
+    transform-origin: 50%;
+  }
+  &::before {
+    transform: rotate(45deg);
+  }
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+
 %arrowMixin {
   position: relative;
   display: inline-block;
@@ -59,6 +77,15 @@
   @extend %multiEllipsisMixin;
   -webkit-line-clamp: ($row);
   line-clamp: ($row);
+}
+
+@mixin cross($color: black, $border: 1px) {
+  @extend %crossMixin;
+  &::before,
+  &::after {
+    width: $border;
+    background-color: $color;
+  }
 }
 
 // 箭头
