@@ -1,0 +1,25 @@
+{
+  "name": "billd-scss",
+  "version": "0.0.1",
+  "description": "billd's scss collections",
+  "keywords": [
+    "billd",
+    "scss",
+    "sass"
+  ],
+  "homepage": "https://github.com/galaxy-s10/billd-scss",
+  "bugs": {
+    "url": "https://github.com/galaxy-s10/billd-scss/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galaxy-s10/billd-scss"
+  },
+  "license": "MIT",
+  "author": "galaxy-s10",
+  "scripts": {},
+  "devDependencies": {
+    "sass": "^1.45.2",
+    "sass-loader": "^12.4.0"
+  }
+}
