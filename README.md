@@ -35,7 +35,24 @@ npm i billd-scss
 # 使用
 
 ```scss
+@import 'billd-scss';
 
+.cross-ico {
+  width: 10px;
+  height: 10px;
+  @include cross(red, 2px);
+}
+.flex1 {
+  color: red;
+  @extend %flexCenter;
+}
+.flex2 {
+  color: blue;
+  @extend %flexCenter;
+}
+.txt {
+  font-size: px2vw(20);
+}
 ```
 
 # 源码
