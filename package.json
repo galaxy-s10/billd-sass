@@ -16,8 +16,14 @@
     "url": "https://github.com/galaxy-s10/billd-scss"
   },
   "license": "MIT",
-  "author": "galaxy-s10",
-  "scripts": {},
+  "author": "shuisheng <https://github.com/galaxy-s10>",
+  "files": [
+    "src",
+    "./postinstall.js"
+  ],
+  "scripts": {
+    "postinstall": "node ./postinstall.js"
+  },
   "devDependencies": {
     "sass": "^1.45.2",
     "sass-loader": "^12.4.0"

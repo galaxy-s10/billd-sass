@@ -3,6 +3,8 @@
 // 编译结果: .header {filter: blur(2px);}
 // 注意:使用mixin有顺序要求,得先定义mixin,再include使用
 
+@use 'sass:math';
+
 %fullMixin {
   top: 0;
   right: 0;
@@ -63,6 +65,13 @@
     content: '';
     transition: all 0.3s ease;
   }
+}
+
+// 小于12px字体
+@mixin minFont($size: 10) {
+  font-size: math.div($size, 12) * 1px;
+  transform: scale(math.div($size, 12));
+  transform-origin: 0 0;
 }
 
 // 充满屏幕
