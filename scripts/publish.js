@@ -1,7 +1,7 @@
 const path = require('path');
 const { execSync } = require('child_process');
 const pkg = require('../package.json');
-const { chalkSUCCESS, chalkERROR, chalkINFO } = require('../utils/chalkTip');
+const { chalkSUCCESS, chalkERROR, chalkINFO } = require('./chalkTip');
 
 // WARN: yrm切换镜像的时候，会同步切换npm的镜像！但是nrm切换镜像却不会切换yarn的镜像！
 // 当使用npm镜像为npm，但是yarn镜像为taobao或者cnpm的时候，但是yarn run mypublish有时候会成功？

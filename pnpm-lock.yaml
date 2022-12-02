@@ -3,24 +3,32 @@ lockfileVersion: 5.4
 specifiers:
   '@commitlint/cli': ^17.0.3
   '@commitlint/config-conventional': ^17.0.3
+  chalk: ^4
   commitizen: ^4.2.4
   cz-conventional-changelog: ^3.3.0
+  fs-extra: ^10.1.0
   husky: ^8.0.0
+  inquirer: ^8
   lint-staged: ^13.0.3
   prettier: ^2.7.1
   sass: ^1.45.2
   sass-loader: ^12.4.0
+  semver: ^7.3.7
 
 devDependencies:
   '@commitlint/cli': 17.3.0
   '@commitlint/config-conventional': 17.3.0
+  chalk: 4.1.2
   commitizen: 4.2.5
   cz-conventional-changelog: 3.3.0
+  fs-extra: 10.1.0
   husky: 8.0.2
+  inquirer: 8.2.4
   lint-staged: 13.0.4
   prettier: 2.8.0
   sass: 1.56.1
   sass-loader: 12.6.0_sass@1.56.1
+  semver: 7.3.8
 
 packages:
 
