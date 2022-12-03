@@ -1,3 +1,12 @@
+## [0.0.6](https://github.com/galaxy-s10/billd-scss/compare/v0.0.5...v0.0.6) (2022-12-03)
+
+
+### feat
+
+* 1.优化cross;2.增加coverBg和containBg;3.增加小于12px字体 ([fc74093](https://github.com/galaxy-s10/billd-scss/commit/fc74093df122a9257c1d07eae87e61d6abd5349c))
+
+
+
 ## [0.0.5](https://github.com/galaxy-s10/billd-scss/compare/v0.0.4...v0.0.5) (2022-12-03)
 
 
