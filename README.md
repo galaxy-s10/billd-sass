@@ -35,7 +35,7 @@ npm i billd-scss
 # 使用
 
 ```scss
-@import 'billd-scss';
+@import 'billd-scss/src/index.scss';
 
 .cross-ico {
   width: 10px;
