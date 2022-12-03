@@ -1,3 +1,12 @@
+## [0.0.5](https://github.com/galaxy-s10/billd-scss/compare/v0.0.4...v0.0.5) (2022-12-03)
+
+
+### fix
+
+* 更新readme ([fbdbc50](https://github.com/galaxy-s10/billd-scss/commit/fbdbc50d45e5df5bbdb5e957da8d7a2c691295fd))
+
+
+
 ## 0.0.4 (2022-12-02)
 
 
