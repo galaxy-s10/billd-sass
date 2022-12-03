@@ -12,6 +12,11 @@
   left: 0;
 }
 
+%minFontMixin {
+  font-size: 12px;
+  transform-origin: 0 0;
+}
+
 %colorTextMixin {
   position: relative;
   overflow: hidden;
@@ -43,10 +48,10 @@
     transform-origin: 50%;
   }
   &::before {
-    transform: rotate(45deg);
+    transform: translate(-50%) rotate(45deg);
   }
   &::after {
-    transform: rotate(-45deg);
+    transform: translate(-50%) rotate(-45deg);
   }
 }
 
@@ -69,9 +74,8 @@
 
 // 小于12px字体
 @mixin minFont($size: 10) {
-  font-size: math.div($size, 12) * 1px;
+  @extend %minFontMixin;
   transform: scale(math.div($size, 12));
-  transform-origin: 0 0;
 }
 
 // 充满屏幕

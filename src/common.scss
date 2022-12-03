@@ -3,10 +3,26 @@
 // 编译结果: .header {direction: ltr;} .header {border: 1px;}
 // 使用占位符选择器没有顺序要求,先定义再使用或者先使用再定义都行
 
-// 完整背景图
+@use 'sass:math';
+
+// 10px字体
+%font10px {
+  font-size: 12px;
+  transform: scale(math.div(10, 12));
+  transform-origin: 0 0;
+}
+
+// contain背景图
 %containBg {
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
+}
+
+// cover背景图
+%coverBg {
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -21,9 +37,9 @@
 %maskBg {
   position: fixed;
   top: 0;
+  right: 0;
   bottom: 0;
   left: 0;
-  right: 0;
   background-color: rgba($color: #000000, $alpha: 0.5);
 }
 
@@ -33,6 +49,7 @@
 }
 
 // 单行省略号
+// 父元素使用flex: 1时，里面的子元素省略号不显示，就在父元素再加上width:0或者overflow: hidden;即可解决
 %singleEllipsis {
   overflow: hidden;
   text-overflow: ellipsis;
