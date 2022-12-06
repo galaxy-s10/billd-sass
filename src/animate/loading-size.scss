@@ -58,12 +58,11 @@
   &::before {
     width: $px;
     height: $px;
-    background-color: $color;
-    opacity: 0.5;
+    background-color: rgba($color, 0.5);
   }
   &::after {
     width: $px;
     height: $px;
-    background-color: $color;
+    background-color: rgba($color, 0.5);
   }
 }
