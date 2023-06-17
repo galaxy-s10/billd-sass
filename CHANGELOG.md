@@ -1,3 +1,16 @@
+## [0.0.7](https://github.com/galaxy-s10/billd-scss/compare/v0.0.6...v0.0.7) (2023-06-17)
+
+
+### feat
+
+* 优化loading-size ([0b5e0ff](https://github.com/galaxy-s10/billd-scss/commit/0b5e0ffb06826090d19e5ff0b79cf7a86040568a))
+
+### fix
+
+* loading ([01fc8f5](https://github.com/galaxy-s10/billd-scss/commit/01fc8f5ac152c9784a00b4056a1e6eaf85cb0148))
+
+
+
 ## [0.0.6](https://github.com/galaxy-s10/billd-scss/compare/v0.0.5...v0.0.6) (2022-12-03)
 
 
