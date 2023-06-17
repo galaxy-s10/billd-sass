@@ -12,6 +12,13 @@
   transform-origin: 0 0;
 }
 
+// 8px字体
+%font8px {
+  font-size: 12px;
+  transform: scale(math.div(8, 12));
+  transform-origin: 0 0;
+}
+
 // contain背景图
 %containBg {
   background-position: center;
@@ -24,6 +31,13 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+// flex的垂直居中+左右靠边
+%flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 // flex的水平垂直居中
