@@ -1,3 +1,12 @@
+## [0.0.8](https://github.com/galaxy-s10/billd-scss/compare/v0.0.7...v0.0.8) (2023-10-09)
+
+
+### fix
+
+* 隐藏滚动条 ([242c7e1](https://github.com/galaxy-s10/billd-scss/commit/242c7e19fa208c8d94afefce94e04087f3c7be92))
+
+
+
 ## [0.0.7](https://github.com/galaxy-s10/billd-scss/compare/v0.0.6...v0.0.7) (2023-06-17)
 
 
